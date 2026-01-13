@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "sofa",
+        "price": 20000,
+        "image": "images/p1.png"
+    },
+    {
+        "id": 2,
+        "name": "chair",
+        "price": 10000,
+        "image": "images/p2.png"
+    },
+    {
+        "id": 3,
+        "name": "dinning",
+        "price": 35000,
+        "image": "images/dinning.jpg"
+    },
+    {
+        "id": 4,
+        "name": "dressing table",
+        "price": 25000,
+        "image": "images/dressing table.jpg"
+    },
+    {
+        "id": 5,
+        "name": "hydrualic bed ",
+        "price": 80000,
+        "image": "images/hydrualic bed.jpg"
+    },
+    {
+        "id": 6,
+        "name": "kitchen modular",
+        "price": 18000,
+        "image": "images/kitchen modular.jpg"
+    },
+    {
+        "id": 7,
+        "name": "tv unit",
+        "price": 45000,
+        "image": "images/tv unit.jpg"
+    },
+    {
+        "id": 8,
+        "name": "wardrobe",
+        "price": 13000,
+        "image": "images/wardrobe.jpg"
+    }
+]
