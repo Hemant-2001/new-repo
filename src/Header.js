@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="content">
                     <div className="logo">
                         <Link to="/">
-                            {/* FIX: Imported variable का उपयोग करें */}
+
                             <img src={logo} alt="Logo" />
                         </Link>
                     </div>
@@ -27,7 +27,7 @@ const Header = () => {
                         <li><Link to="/contact">contact</Link></li>
                     </ul>
                 </div>
-                {/* ... Search Box HTML ... */}
+
                 <label htmlFor="show-search" className="search-icon">
                     <i className="fas fa-search"></i>
                 </label>

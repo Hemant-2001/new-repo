@@ -6,7 +6,6 @@ import logo from './assets/images/logo.png';
 
 const Footer = () => {
 
-    // FIX: Scroll-to-top function
     const scrollToTop = (e) => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -16,7 +15,6 @@ const Footer = () => {
         <footer id="footer">
             <div className="footer-content">
                 <div className="logo">
-                    {/* FIX: Imported logo का उपयोग करें */}
                     <img src={logo} alt="Logo" />
                 </div>
                 <p>
@@ -53,8 +51,6 @@ const Footer = () => {
             <hr />
             <button onClick={scrollToTop} className="arrow">
                 <i>
-
-                    {/* <img src={upArrow} alt="Up Arrow" width="50px" /> */}
                 </i>
             </button>
         </footer>

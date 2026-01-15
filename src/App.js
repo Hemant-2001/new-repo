@@ -20,7 +20,7 @@ const App = () => {
                     <Route path="/contact" element={<ContactPage />} />
                 </Routes>
             </main>
-            <Footer /> {/* Footer is common to all pages */}
+            <Footer />
         </Router>
     );
 };

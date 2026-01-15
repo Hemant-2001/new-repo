@@ -17,7 +17,6 @@ const Home = () => {
 
             <section className="about" id="about">
                 <div className="about-img">
-                    {/* FIX: Imported roomImg का उपयोग करें */}
                     <img src={roomImg} alt="Room" />
                 </div>
                 <div className="about-text">
@@ -39,14 +38,11 @@ const Home = () => {
                     <p></p>
                     <div className="list">
                         <li>
-                            {/* FIX: Accessibility - tel: protocol */}
                             <a href="tel:9372576945">9372576945</a>
                         </li>
                         <li>
-                            {/* FIX: Accessibility - mailto: protocol */}
                             <a href="mailto:hemantvishwakarma200@gmail.com">hemantvishwakarma200@gmail.com</a>
                         </li>
-                        {/* REMOVED: Empty anchor link */}
                     </div>
                 </div>
 

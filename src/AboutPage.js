@@ -7,7 +7,6 @@ const AboutPage = () => {
     return (
         <section className="about" id="about">
             <div className="about-img">
-                {/* FIX: Imported roomImg का उपयोग करें */}
                 <img src={roomImg} alt="Room" />
             </div>
             <div className="about-text">
